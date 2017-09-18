@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Personal Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <!-- my custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- so I can use font-awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" -->
+</head>
+
+<body>
+
+    <!-- NAVBAR START -->
+    <nav class="navbar fixed-top bg-faded navbar-toggleable-sm navbar-custom">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#myContent" aria-controls="myContent" aria-expanded="false" aria-label="Toggle Navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+        <a href="#Home" class="navbar-brand">
+            <img src="http://kbolster.webhost4life.com/FullStackDeveloper/Portfolio/images/KatapultIcon.png" width="30" height="30" class="d-inline-block align-top" alt="Katapult Icon"> Katapult Coding & Web Dev
+        </a>
+
+        <div class="collapse navbar-collapse" id="myContent">
+            <nav class="navbar-nav ">
+                <a class="nav-item nav-link active" href="#Home" id="nav-home">Home</a>
+                <a class="nav-item nav-link" href="#About">About</a>
+                <a class="nav-item nav-link" href="#Portfolio">Portfolio</a>
+                <a class="nav-item nav-link" href="#Contact">Contact</a>
+            </nav>
+        </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+
+    <!-- HOME SECTION START -->
+    <a name="Home"></a>
+    <div class="bg-primary text-white container-fluid" style="padding-top: 120px; padding-bottom: 60px;">
+
+        <div class="container rounded mt-2 mb-2" style="border:3px solid white;">
+            <div class="container mt-3 mx-auto">
+                <h3 class="text-center mb-3">HOME</h3>
+                <img src="http://kbolster.webhost4life.com/FullStackDeveloper/Portfolio/images/Katapult2.png" alt="Katapult Logo" class="img-fluid mx-auto d-block mt-3 mb-3">
+
+
+                <p>Katapult coding & web dev is where work gets done. A fullstack web development outfit, we can crank out front-end, back-end, database expertise and everything in between. At Katapult we have a "can-do" attitude and thrive on customer satisfaction.</p>
+
+                <p>Kat Bolster, the founder of Katapult, is up for anything and always putting a fun spin on the work at hand. If you're looking for a stuffy partner to develop your apps, look elsewhere. If you're looking for a partner that is energetic,
+                    fun, and always looking to improve your applications then look no further.</p>
+            </div>
+            <!-- container m-3-->
+        </div>
+        <!-- container -->
+    </div>
+    <!-- bg-info -->
+    <!-- HOME SECTION END -->
+
+    <!-- ABOUT SECTION START -->
+    <a name="About"></a>
+    <div class="bg-success container-fluid" style="padding-top: 120px; padding-bottom: 60px;">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="container rounded mt-2" style="border:3px solid white;">
+                    <div class="container mt-3 mx-auto">
+                        <h3 class="text-center mb-3">ABOUT</h3>
+                        <div class="row">
+                            <!-- START OF WORK CARD -->
+                            <div class="col-sm-6">
+                                <section class="card mb-3" id="work">
+                                    <img class="card-img-top img-fluid" src="http://kbolster.webhost4life.com/FullStackDeveloper/Portfolio/images/Work800x500.png" alt="Work Photo">
+                                    <div class="card-block">
+                                        <h2 class="card-title">Coding & Web Development</h2>
+                                        <h5 class="card-subtitle">We offer the full range of services</h5>
+                                        <p class="card-text mt-3">
+                                            Katapult Coding & Web Dev came into existence via a circuitous route. You can read the long story
+                                            <!-- this link will show/hide the long story of Katapult. It uses the same code as the "read more" button below-->
+                                            <a href="#fullstory" data-toggle="collapse" data-target="#fullstory" id="katapultfullstorylink" onclick="adjustReadMoreButtonText()" aria-expanded="Link to Full Story of Katapult">here.
+                          </a>
+                                        </p>
+                                        <p>
+                                            Katapult Coding & Web Dev offers a full spectrum of application and web development services. Core specialties include but are not limited to coding back-end features for web applications and database work and creating responsive front-end websites designed
+                                            for both the desktop screen and mobile devices. Want some special spice to make your site stand out? Want to interact with the user and store their feedback? Katapult can do that. Using HTML5/CSS, bootstrap,
+                                            PHP, jQuery, Javascript, mySQL or NoSQL they have the background knowledge to apply almost any technology. If you're looking for someone who is flexible to take on as little or as much as you need and to do
+                                            quality, diligent work in a timely manner - look no futher than Katapult Coding and Web Dev.
+                                        </p>
+
+                                        <!-- This button will toggle whether the rest of my long winded saga is visible on the screen or not -->
+                                        <button class="btn btn-primary mb-2" data-toggle="collapse" data-target="#fullstory" id="katapultfullstory" onclick="adjustReadMoreButtonText()" aria-expanded="Link to Full Story of Katapult">
+                            Read More
+                        </button>
+
+                                        <div id="fullstory" class="collapse  mb-3" aria-expanded="false">
+                                            <p>
+                                                The journey began the summer of 1998 when Kathryn Bolster, the founder and heart and soul of Katapult, started on a graduate degree at <a href="www.rit.edu" target="_blank">Rochester 
+                            Institute of Technololgy</a> in software development. She had just graduated magna cum laude from <a href="www.naz.edu" target="_blank">Nazareth College</a> with a degree in Political Science and Pre-Law, however, had decided
+                                                that pursuing a career in law did not fit with the lifestyle she had envisioned for herself. Therefore she decided to pursue a career in the exciting realm of software development.
+                                            </p>
+                                            <p>
+                                                Shortly after she started her summer course work for the graduate program she received a call from Keane, Inc.
+                                                <a href="https://us.nttdata.com/en/" target="_blank">(now part of NTT Data)</a>, a company that had her resume from a job fair she had attended. They were recruiting people who excelled in math to take an
+                                                aptitude test to see if they qualified to be trained in assisting with Y2K code remediation. While this wasn't exactly the cutting edge technology she was expecting to learn at RIT, it was paid for and it
+                                                was a job doing programming so she took advantage of the opportunity. After acing the apptitude test she was shuttled to Boston for a 3 month intensive training program that taught her the basics of programming.
+                                                Shortly after Y2K Keane invested in Kathryn for a second time and sent her to Boston for 2 months of client/server training. Here she had her first introduction to object oriented programming, database design
+                                                and implementation, and concepts of how clients and servers interact. She really enjoyed this training and was thrilled to incorporate a visual aspect to her coding.
+                                            </p>
+                                            <p>
+                                                As the Y2K boom waned and Keane's opportunties dried up Kathryn went to work for a 2-man shop that specialized in custom web development. Being the third person in a company that at the time was designing and developing data-driven websites, stand alone
+                                                shopping carts and working with large area businesses to develop client-server solutions for their manufacturing lines allowed her to grow her skills tremendously. PHP, Javascript, SQL Server, VB, and C++
+                                                were some of the skills she honed while working there. On top of on-the-job learning she also took a graduate level course in C++ at Syracuse University. It was a right of passage the owner put on her. He
+                                                knew the course was tough and wanted to put his new employee through her paces. While the course was challenging, Kathryn earned an A and learned a great deal.
+                                            </p>
+                                            <p>
+                                                The beauty of working in a tiny company is the ability to touch every aspect of every project. An employee is forced to be a jack of all trades and the learning opportunity is immense. This was the perfectly appropriate job for Kathryn to learn the skills
+                                                she would need to further her career. When work was scarce and the company shifted focus Kathryn did some contract client/server programming for about a year before accepting a full time position as a programmer/anaylst
+                                                for a finacial services company. At this job Kathryn did a great deal of database work with both SQL Server and Oracle. She also developed multiple applications using the Microsoft .NET framework. Kathryn
+                                                also completed the Syracuse University MS .NET Application Developer Program, an intensive study of 3 focused modules that immersed you into the various nuances of the development environment, SQL Server,C#
+                                                and VB.NET. From the financial services company Kathryn got a job close to home at a medical device manufacturer and worked there for a decade. During her time there she started her family and eventually
+                                                went to part time. Now that her children are older and she has more time she is eager to get back into developing applications and beautiful websites. No stranger to learning on her own she has taken various
+                                                classes to get up to speed on the latest technologies and tools such as HTML5/CSS, the bootstrap framework, PHP, jQuery, Javascript, mySQL, NoSQL, GIT, etc. She also has the advantage of all her experience
+                                                and understanding of how things work and fit together. She has coded the things in the past that current tools now do for you and has a comprehensive understanding of what is going on beneath the hood of
+                                                an application. If you're looking for someone who is flexible to take on as little or as much as you need and to do quality, diligent work in a timely manner - look no futher than Katapult Coding and Web
+                                                Dev.
+                                            </p>
+                                            <p>
+                                                Today, Katapult Coding & Web Dev offers a full spectrum of application and web development services. Core specialties include but are not limited to coding back-end features for web applications and database work and creating responsive front-end websites
+                                                designed for both the desktop screen and mobile devices. Want some special spice to make your site stand out? Want to interact with the user and store their feedback? Katapult can do that. Using HTML5/CSS,
+                                                bootstrap, PHP, jQuery, Javascript, mySQL or NoSQL they have the background knowledge to apply almost any technology.
+                                            </p>
+                                        </div>
+                                        <!--fullstory-->
+                                    </div>
+                                    <!-- card-block -->
+                                </section>
+                            </div>
+                            <!-- col-sm-6 -->
+                            <!-- END OF WORK CARD -->
+
+                            <!-- START OF HOME CARD -->
+                            <div class="col-sm-6">
+                                <section class="card mb-3">
+                                    <img class="card-img-top img-fluid" src="http://kbolster.webhost4life.com/FullStackDeveloper/Portfolio/images/Home800x500.png" alt="Home Photo">
+                                    <div class="card-block">
+                                        <h2 class="card-title">Home, Family & Play</h2>
+                                        <h5 class="card-subtitle">There's never a dull moment in the Bolster family</h5>
+                                        <p class="card-text mt-3">
+                                            Being a family of two adults, two kids, and
+                                            <a href="http://kbolster.webhost4life.com/FullStackDeveloper/dogtribute/" target="_blank">two dogs</a> makes for a pretty active life. The Bolster's love to be outside in the nice weather as well as hunker down
+                                            and get snuggle time on the couch when the weather gets cold. They enjoy spending time in the Adirondacks hiking, swimming and paddle boarding during the summer, as well as, hanging at their house and hosting
+                                            lots of freinds. In the winter they spend a lot more time inside and should probably figure out a winter sport to take up.
+                                        </p>
+                                        <p>
+                                            Their dogs keep the family busy bringing them to the local 'dog utopia' which is luckily right around the corner. The kids are at the perfect ages and their sweetness to independence ratio is just right. Developing a freeze ray to keep them at this stage
+                                            is currently under discussion. Both kids have their separate passions that fill them up and keep the adults driving skills sharp through constant use. It's a great life and one that this family cherishes and
+                                            appreciates every moment of.
+                                        </p>
+                                    </div>
+                                    <!-- card-block -->
+                                </section>
+                            </div>
+                            <!-- col-xs-6 -->
+                            <!-- END OF HOME CARD -->
+                        </div>
+                        <!-- row -->
+                    </div>
+                    <!-- container mt-3 mx-auto -->
+                </div>
+                <!-- container rounded mt-2-->
+            </div>
+            <!--col-sm-12-->
+        </div>
+        <!-- row -->
+    </div>
+    <!-- bg-success -->
+    <!-- ABOUT SECTION END -->
+
+    <!-- PORTFOLIO SECTION START -->
+    <a name="Portfolio"></a>
+    <div class="bg-warning" style="padding-top: 60px; padding-bottom: 60px;">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="container rounded mt-2" style="border:3px solid white;">
+                    <div class="container mt-3 mx-auto">
+                        <h3 class="text-center mb-3">PROJECTS</h3>
+
+                        <!-- START ROW 1 -->
+                        <div class="row">
+
+                            <!-- START OF HEALTH IN HAND PROJECT  CARD -->
+                            <div class="col-sm-4">
+                                <section class="card card-outline-warning mb-3">
+                                    <a href="http://www.healthinhandbodywork.com" target="_blank">
+                                        <img class="card-img-top img-fluid" src="http://kbolster.webhost4life.com/FullStackDeveloper/Portfolio/images/HealthInHand600x400.png" alt="Health In Hand Photo"></a>
+                                    <div class="card-block">
+                                        <h5 class="card-title">PHP SCRIPT WRITING</h5>
+                                        <p class="card-text mt-3">
+                                            For the <a href="http://www.healthinhandbodywork.com" target="_blank">Health In Hand website</a> we wrote PHP scripts in order for users to interact with a very specific and complex part of the site. This allowed
+                                            the site owner to track data about the users and also allowed for a more engaging user experience.
+                                        </p>
+                                    </div>
+                                    <!-- card-block -->
+                                </section>
+                            </div>
+                            <!-- col-sm-6 -->
+                            <!-- END OF HEALTH IN HAND PROJECT  CARD -->
+
+                            <!-- START OF KATAPULT PORTFOLIO PROJECT CARD -->
+                            <div class="col-sm-4">
+                                <section class="card mb-3 card-outline-warning mb-3">
+                                    <a href="http://kbolster.webhost4life.com/FullStackDeveloper/Portfolio" target="_blank">
+                                        <img class="card-img-top img-fluid" src="http://kbolster.webhost4life.com/FullStackDeveloper/Portfolio/images/KatapultSite600x400.png" alt="Work Photo">
+                                    </a>
+                                    <div class="card-block">
+                                        <h5 class="card-subtitle">HTML5, CSS & Bootstrap</h5>
+                                        <p class="card-text mt-3">
+                                            Completed this site as part of freecodecamp.net basic front end development projects. Utilized different aspects of the bootstrap framework (navbar, cards) as well as javascript to manage state of active links.
+                                        </p>
+                                    </div>
+                                    <!-- card-block -->
+                                </section>
+                            </div>
+                            <!-- col-sm-6 -->
+                            <!-- END OF KATAPULT PORTFOLIO PROJECT CARD -->
+
+                            <!-- START OF BOLSTER DOG TRIBUTE PROJECT CARD -->
+                            <div class="col-sm-4">
+                                <section class="card card-outline-warning mb-3">
+                                    <a href="http://kbolster.webhost4life.com/FullStackDeveloper/DogTribute" target="_blank">
+                                        <img class="card-img-top img-fluid" src="http://kbolster.webhost4life.com/FullStackDeveloper/Portfolio/images/BolsterDogTribute600x400.png" alt="Home Photo">
+                                    </a>
+                                    <div class="card-block">
+                                        <h5 class="card-subtitle">HTML5, CSS & Bootstrap </h5>
+                                        <p class="card-text mt-3">
+                                            Completed this site as part of freecodecamp.net basic front end development projects. Utilized different aspects of the bootstrap framework (jumbotron, cards, accordion) as well as javascript to change states of accordion and appropriate button labels.
+                                        </p>
+                                    </div>
+                                    <!-- card-block -->
+                                </section>
+                            </div>
+                            <!-- col-xs-6 -->
+                            <!-- END OF BOLSTER DOG TRIBUTE PROJECT  CARD -->
+                        </div>
+                        <!-- row 1 -->
+                        <!-- END ROW 1 -->
+
+                        <!-- START ROW 2 -->
+                        <div class="row">
+
+                            <!-- START OF ISABELLA BOLSTER PROJECT CARD -->
+                            <div class="col-sm-4">
+                                <section class="card mb-3 card-outline-warning">
+                                    <a href="http://www.isabellabolster.com" target="_blank">
+                                        <img class="card-img-top img-fluid" src="http://kbolster.webhost4life.com/FullStackDeveloper/Portfolio/images/IsabellaBolster600x400.png" alt="Home Photo">
+                                    </a>
+                                    <div class="card-block">
+                                        <h5 class="card-subtitle">Site Design</h5>
+                                        <p class="card-text mt-3">
+                                            Developed site and content. Mobile Friendly.
+                                        </p>
+                                    </div>
+                                    <!-- card-block -->
+                                </section>
+                            </div>
+                            <!-- col-xs-6 -->
+                            <!-- END OF ISABELLA BOLSTER PROJECT CARD -->
+
+                            <!-- START OF BRAVE TRUE YOU PROJECT CARD -->
+                            <div class="col-sm-4">
+                                <section class="card mb-3 card-outline-warning">
+                                    <a href="http://www.bravetrueyou.com" target="_blank">
+                                        <img class="card-img-top img-fluid" src="http://kbolster.webhost4life.com/FullStackDeveloper/Portfolio/images/BraveTrueYou600x400.png" alt="Home Photo">
+                                    </a>
+                                    <div class="card-block">
+                                        <h5 class="card-subtitle">Site & Graphics design</h5>
+                                        <p class="card-text mt-3">
+                                            Developed site and all graphics for this project. Mobile Friendly.
+                                        </p>
+                                    </div>
+                                    <!-- card-block -->
+                                </section>
+                            </div>
+                            <!-- col-xs-6 -->
+                            <!-- END OF BRAVE TRUE YOU PROJECT CARD -->
+
+                            <!-- START OF SYRACUSE ATM PROJECT  CARD -->
+                            <div class="col-sm-4">
+                                <section class="card card-outline-warning mb-3">
+                                    <a href="http://www.syracuseatm.com" target="_blank">
+                                        <img class="card-img-top img-fluid" src="http://kbolster.webhost4life.com/FullStackDeveloper/Portfolio/images/SyracuseATMATFG600x400.png" alt="Home Photo">
+                                    </a>
+                                    <div class="card-block">
+                                        <h5 class="card-subtitle">Site Design & jQuery scripting</h5>
+                                        <p class="card-text mt-3">
+                                            Designed site years ago and added code to enable map functionality with graphic pop-ups. *NOT mobile friendly. :(
+                                        </p>
+                                    </div>
+                                    <!-- card-block -->
+                                </section>
+                            </div>
+                            <!-- col-xs-6 -->
+                            <!-- END OF SYRACUSE ATM PROJECT  CARD -->
+
+
+                        </div>
+                        <!-- row 2 -->
+
+                    </div>
+                    <!-- container mt-3 mx-auto -->
+                </div>
+                <!-- container rounded mt-2-->
+            </div>
+            <!--col-sm-12-->
+        </div>
+        <!-- row -->
+    </div>
+    <!-- bg-success -->
+    <!-- PORTFOLIO SECTION END -->
+
+    <!-- START OF CONTACT SECTION -->
+    <a name="Contact"></a>
+    <div class="bg-inverse text-white container-fluid" style="padding-top: 120px; padding-bottom: 60px;">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="container rounded mt-2" style="border:3px solid white;">
+                    <div class="container mt-3 mx-auto">
+                        <h3 class="text-center mb-3">CONTACT US</h3>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <!-- START OF CONTACT FORM -->
+                                <form>
+                                    <fieldset>
+                                        <legend class="text-xs-center">Contact us</legend>
+
+                                        <!-- name start -->
+                                        <label class="form-control-label d-block">Name:</label>
+                                        <div class="form-group row">
+                                            <div class="form-group col-md-6">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon bg-inverse text-white"><i class="fa fa-user bigicon"></i></span>
+                                                    <label class="form-control-label sr-only" for="firstname">First Name</label>
+                                                    <input type="text" class="form-control" id="firstname" placeholder="First Name">
+                                                </div>
+                                                <!-- input-group -->
+                                            </div>
+                                            <!-- form-group col-md-6 -->
+                                            <div class="form-group col-md-6 ">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon bg-inverse text-white"><i class="fa fa-user bigicon"></i></span>
+                                                    <label class="form-control-label sr-only" for="lastname">Last Name</label>
+                                                    <input class="form-control" type="text" id="lastname" placeholder="Last Name">
+                                                </div>
+                                                <!-- input-group -->
+                                            </div>
+                                            <!-- form-group col-md-6 -->
+                                        </div>
+                                        <!-- form group row -->
+                                        <!-- name end -->
+
+                                        <!-- email start -->
+                                        <label class="form-control-label d-block" for="email">Email:</label>
+                                        <div class="form-group row">
+                                            <div class="input-group col-md-6">
+                                                <span class="input-group-addon bg-inverse text-white"><i class="fa fa-envelope-o bigicon"></i></span>
+                                                <input class="form-control" type="text" id="email" placeholder="Email">
+                                            </div>
+                                            <!-- input-group col-md-6-->
+                                        </div>
+                                        <!-- form-group row -->
+                                        <!-- email end -->
+
+                                        <!-- message start -->
+                                        <label class="form-control-label d-block" for="message">Message:</label>
+                                        <div class="form-group row">
+                                            <div class="input-group col-md-12">
+                                                <span class="input-group-addon bg-inverse text-white"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                                <textarea class="form-control" id="message" name="message" placeholder="We'd love to hear from you! Drop us a 
+                                                   line and we'll get back to you ASAP. Have a great rest of your day! :)" rows="7">  
+                            </textarea>
+
+                                            </div>
+                                            <!-- input-group col-md-6-->
+                                        </div>
+                                        <!-- form-group row -->
+                                        <!-- message end -->
+
+                                        <!-- submit button start -->
+                                        <div class="form-group">
+                                            <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                                        </div>
+                                        <!-- submit button end -->
+
+                                    </fieldset>
+                                </form>
+
+                            </div>
+                            <!-- col-sm-12 -->
+                        </div>
+                        <!-- row -->
+
+
+                        <!-- start social media links -->
+                        <div class="row">
+                            <div class="col-sm-8">
+                            </div>
+                            <div class="col-sm-4">
+                                <h5 class="text-right">Or catch us on social media!</h5>
+                            </div>
+                            <!--col-sm-4 -->
+                        </div>
+                        <!-- row -->
+
+
+                        <div class="row">
+                            <div class="col-sm-9">
+                            </div>
+                            <div class="col-sm-1">
+                                <a href="https://www.facebook.com/kathryn.curingabolster" target="_blank">
+
+                                    <img class="w-75" src="http://kbolster.webhost4life.com/FullStackDeveloper/Portfolio/images/facebook.png" alt="Facebook Link">
+
+                                </a>
+
+                            </div>
+
+                            <div class="col-sm-1">
+
+                                <a href="mailto:kbolster20@yahoo.com" target="_blank">
+                                    <img class="img-fluid w-75" src="http://kbolster.webhost4life.com/FullStackDeveloper/Portfolio/images/mail.png" alt="eMail Link">
+
+
+                            </div>
+
+                            <div class="col-sm-1">
+                                <a href="https://www.freecodecamp.org/fcc998fcf47" target="_blank">
+                                    <img class="img-fluid w-75" src="http://kbolster.webhost4life.com/FullStackDeveloper/Portfolio/images/freecodecamp.png" alt="Free Code Camp Link">
+                                </a>
+
+                            </div>
+                        </div>
+                        <!-- row -->
+
+                    </div>
+                    <!-- row -->
+
+
+                </div>
+                <!-- container mt-3 mx-auto -->
+            </div>
+            <!-- container rounded mt-2-->
+        </div>
+        <!--col-sm-12-->
+    </div>
+    <!-- row -->
+    </div>
+    <!-- bg-success -->
+    <!-- END OF CONTACT SECTION -->
+
+
+    <!-- Scripts -->
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+
+    <!-- START CUSTOM SCRIPT -->
+    <script>
+        /* this will change the active link properly */
+        $(document).ready(function() {
+            $(".nav-item").click(function(event) {
+                /*alert(event.target.id);*/
+                $(".nav-item").removeClass('active');
+                $(this).addClass('active');
+            });
+        });
+
+
+        // I would like the button text to reflect if you want to read more or less
+        // it needs to follow the state of what is current visible to the user
+        function adjustReadMoreButtonText() {
+            if ($('#fullstory').attr('aria-expanded') == 'false') {
+                // Katapult's full story is NOT visible
+                // which means the button is being clicked
+                // to make it visible so
+                // we need to change this to 'Read Less'
+                $('#katapultfullstory').text('Read Less');
+            } else {
+                // Katapult's full story IS visible
+                // which means the button is being clicked
+                // to hide it so we need to change the button
+                // text to 'Read More'
+                $('#katapultfullstory').text('Read More');
+            }
+        }
+    </script>
+    <!-- END CUSTOM SCRIPT -->
+
+</body>
+
+</html>
